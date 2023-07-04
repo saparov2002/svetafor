@@ -1,0 +1,53 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#svetofor {
+    width: 200px;
+    height: 400px;
+    background-color: black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    row-gap: 8px;
+}
+
+
+
+.red {
+    width: 140px;
+    height: 180px;
+    border-radius: 50%;
+   
+    box-shadow: -7px -12px 400px 1px rgba(239,33,33,1) inset;
+    -webkit-box-shadow: -7px -12px 400px 1px rgba(239,33,33,1) inset;
+    -moz-box-shadow: -7px -12px 400px 1px rgba(239,33,33,1) inset;
+}
+
+.yellow {
+    width: 140px;
+    height: 180px;
+    border-radius: 50%;
+    
+    box-shadow: -7px -12px 400px 1px rgba(231,244,22,1) inset;
+-webkit-box-shadow: -7px -12px 400px 1px rgba(231,244,22,1) inset;
+-moz-box-shadow: -7px -12px 400px 1px rgba(231,244,22,1) inset;
+}
+
+.green {
+    width: 140px;
+    height: 180px;
+    border-radius: 50%;
+    box-shadow: -7px -12px 400px 1px rgba(21,241,52,1) inset;
+    -webkit-box-shadow: -7px -12px 400px 1px rgba(21,241,52,1) inset;
+    -moz-box-shadow: -7px -12px 400px 1px rgba(21,241,52,1) inset;
+}
+.active{
+    opacity: 1;
+}
